@@ -1,6 +1,5 @@
 # Author:        F4lnes
 # Created        22.05.2020
-import hashlib
 from tkinter import *
 from tkinter import messagebox
 from gtts import gTTS
@@ -8,7 +7,7 @@ from gtts import gTTS
 LARGE_FONT = ("Avenir", 14)
 
 
-class PyHack(Tk):
+class TextConvert(Tk):
 
     def __init__(self, *args, **kwargs):
         Tk.__init__(self, *args, **kwargs)
@@ -148,5 +147,5 @@ class Single_Convert(Frame):
 
 
 if __name__ == '__main__':
-    app = PyHack()
+    app = TextConvert()
     app.mainloop()
